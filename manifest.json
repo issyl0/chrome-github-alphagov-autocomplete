@@ -1,0 +1,14 @@
+{
+  "name": "GitHub Alphagov Autocomplete",
+  "description" : "Converts 'alphagov/some-repo-name' or
+                  'ag/some-repo-name' to
+                  `https://github.com/alphagov/some-repo-name' by
+                  default to save my sanity.",
+  "version": "1.0",
+  "permissions": ["tabs"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "omnibox": { "keyword": "gh" },
+  "manifest_version": 2
+}
